@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="8-utf">
+
 <head>
-    <title>JK</title>
-    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="Hacker-news.css" type="text/css">
+    <meta charset="utf-8">
+
+    <title>Hacker News Clone</title>
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="Hacker-news.css">
 </head>
+
 <body>
-    <div class="header">
-        <ul>
-            <li class="square"><a href="#">V</a></li>
-            <li><a href="#">Top</a></li>
-            <li><a href="#">New</a></li>
-            <li><a href="#">Show</a></li>
-            <li><a href="#">Ask</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li style="float:right"><a class="last" href="#">Built with Vue.js</a></li>
-        </ul>
-        <div class="page">
-                <a href="#" class="previous">&laquo; Prev</a>
-                <span>1/22</span>
-                <a href="#" class="next">more &raquo;</a>
+    <header class="header clearfix">
+        <div class="logo">
+            <a href="#">V</a>
         </div>
+
+        <nav class="nav">
+            <a class="nav-link" href="#">Top</a>
+            <a class="nav-link" href="#">New</a>
+            <a class="nav-link" href="#">Show</a>
+            <a class="nav-link" href="#">Ask</a>
+            <a class="nav-link" href="#">Jobs</a>
+        </nav>
+
+        <a class="built-with nav-link" href="#">
+            Built with Vue.js
+        </a>
+    </header>
+
+    <div class="pager">
+        <a href="#" class="previous">&laquo; Prev</a>
+        <span>1/22</span>
+        <a href="#" class="next">Next &raquo;</a>
     </div>
+
+    <ul class="posts-list">
+        <li class="posts-list__post clearfix">
+            <div class="post__section">
+                <span class="post__view-count">17</span>
+            </div>
+
+            <div class="post__section">
+                <h2 class="post__title">
+                    Introduction to function programming in Ocaml
+                    <a class="title__link" href="http://fun-mooc.fr">(fun-mooc.fr)</a>
+                </h2>
+
+                <div class="post__meta">
+                    by <a class="meta__link" href="#">melling</a>
+                    16 minutes ago |
+                    <a class="meta__link" href="#">0 comments</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+
     <table>
         <tr>
             <td class="number">17</td>
-            <td> Introduction to funcion programming in Ocaml <font> (fun-mooc.fr) <br> by <a href="#"> melling</a> 16 minutes ago | <a href="#">0 comments </a></font></td>
+            <td> Introduction to funcion programming in Ocaml
+                <font> (fun-mooc.fr) <br> by <a href="#"> melling</a> 16 minutes ago | <a href="#">0 comments </a></font>
+            </td>
         </tr>
-        
+
         <tr>
             <td class="number">851</td>
-            <td> Intel Publishes Microcode Patches,No Benchmarking or Comparison Allowed <font> (perens.com) <br> by <a href="#"> jeswin</a> 9 hours ago | <a href="#"> 280 comments </a></font></td>
+            <td> Intel Publishes Microcode Patches,No Benchmarking or Comparison Allowed
+                <font> (perens.com) <br> by <a href="#"> jeswin</a> 9 hours ago | <a href="#"> 280 comments </a></font>
+            </td>
         </tr>
         <tr>
             <td class="number">9</td>
-            <td> Home Assistant: Open-source home automation platform running on Phyton 3 <font> (home-assistant.io) <br> by <a href="#"> fanf2</a> 1 hour ago | <a href="#"> 0 comments </a></font></td>
+            <td> Home Assistant: Open-source home automation platform running on Phyton 3
+                <font> (home-assistant.io) <br> by <a href="#"> fanf2</a> 1 hour ago | <a href="#"> 0 comments </a></font>
+            </td>
         </tr>
         <tr>
-                <td class="number">406</td>
-                <td> How I recorded user behaviour on my competitor's websites <font> (dejaneso.com.au) <br> by <a href="#"> lukesrevens </a> 11 hours ago | <a href="#"> 190 comments </a></font></td>
+            <td class="number">406</td>
+            <td> How I recorded user behaviour on my competitor's websites
+                <font> (dejaneso.com.au) <br> by <a href="#"> lukesrevens </a> 11 hours ago | <a href="#"> 190 comments </a></font>
+            </td>
         </tr>
         <tr>
-                <td class="number">45</td>
-                <td> A study of musical scales <font> (ianring.com) <br> by <a href="#"> rwnspace </a> 1 day ago | <a href="#"> 1 comments </a></font></td>
+            <td class="number">45</td>
+            <td> A study of musical scales
+                <font> (ianring.com) <br> by <a href="#"> rwnspace </a> 1 day ago | <a href="#"> 1 comments </a></font>
+            </td>
         </tr>
         <tr>
             <td class="number">31</td>
-            <td>Show HN: Weltschmerz by age <font> (p.migdal.pl) <br> by <a href="#"> stared </a> 1 hour ago | <a href="#"> 19 comments </a></font></td>
+            <td>Show HN: Weltschmerz by age
+                <font> (p.migdal.pl) <br> by <a href="#"> stared </a> 1 hour ago | <a href="#"> 19 comments </a></font>
+            </td>
         </tr>
         <tr>
             <td class="number">31</td>
-            <td> Clojure Compilation (2014) <font> (blog.ndk.io) <br> by <a href="#"> tosh </a> 1 hour ago | <a href="#"> 19 comments </a></font></td>
+            <td> Clojure Compilation (2014)
+                <font> (blog.ndk.io) <br> by <a href="#"> tosh </a> 1 hour ago | <a href="#"> 19 comments </a></font>
+            </td>
         </tr>
     </table>
 </body>
+
 </html>
