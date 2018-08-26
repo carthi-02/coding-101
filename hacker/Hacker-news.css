@@ -1,0 +1,76 @@
+    .header{
+    width:100%;
+    margin:auto;
+    }
+
+    ul{
+        list-style-type: none;
+        margin:0px;
+        padding:0px;
+        overflow: hidden;
+        background-color: orangered;
+    
+    }
+    li{
+        float: left;
+    }
+    li a{
+        text-decoration: none;
+        display: block;
+        padding: 14px 16px;
+        text-align:center;
+        color: whitesmoke;
+        font-size: 20px;
+        margin: 4px 4px;
+    }
+    li a:hover {
+        background-color: #111;
+    }
+    .square{
+       border: 3px solid whitesmoke;
+        margin: 4px 4px;
+    }
+    div.page{
+        border-bottom: 1px solid white;
+        text-align:center;
+        background-color:white;
+        padding:20px;
+        width:100%
+
+    }
+    a{
+       color: grey;
+       text-decoration: none;
+   }
+   a.next{
+       color:black;
+   }
+    table{
+        width:80%;
+        border:1px solid whitesmoke;
+        margin:20px 70px;
+        background-color: white;
+    }
+    td{
+       padding:8px;
+       text-align:justify;
+        border-bottom:1px solid gainsboro;
+        color:navy;
+        font-family: 'Alegreya', serif;
+        word-spacing: 3px;
+        font-size:20px;
+    }
+    .number{
+       color: orangered;
+       font-weight: bold;
+       font-family: 'Arvo', serif;
+       font-size: 20px;
+       margin : 10px;
+    }   
+    td font{
+        font-size:regular;
+        color: grey;
+    }
+    body{
+        background-color: whitesmoke;
+    }
