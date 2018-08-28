@@ -78,13 +78,14 @@ body {
 
 .post__section {
   float: left;
+  min-width: 145px;
 }
 
 .post__view-count {
   color: orangered;
   font-weight: bold;
   font-size: 32px;
-  padding: 32px;
+  padding: 45px;
   line-height: 2.5;
 }
 
